@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export CLUSTER_NAME="anup"
+export CLUSTER_TAGS="Env=nonprod,Type=Insurance,Application=k8s"
+export AWS_REGION="ap-south-1"
+export AWS_VPC_CIDR="10.0.0.0/16"
+export AWS_PRIVATE_SUBNETS="subnet-0c890bc2f5db53737,subnet-0da9ef1545a6dca38"
+export AWS_PUBLIC_SUBNETS="subnet-073c9913c8ddc28f4,subnet-0f0e16d64dfbfdd54"
+export AWS_NODE_NAME="core"
+export AWS_NODE_LABELS="autoscaling=enabled,purpose=env"
+export AWS_NODE_TYPE="t2.small"
+export AWS_NODE_VOL="20"
+export AWS_NODE_AMI="ami-009110a2bf8d7dd0a"
+export AWS_NODE_SIZE="2"
+export AWS_NODE_MIN="2"
+export AWS_NODE_MAX="3"
