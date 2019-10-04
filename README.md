@@ -33,10 +33,6 @@ You should especify one environment:
 ./deploy.sh nonprod|mgmt|prod
 ```
 
-If you choose the `prod` option, the script will ask to you in which aws region must be placed this new cluster:
-- 1) eu-west-1 
-
-<a id="script-steps">
 
 ## Next Steps
 
