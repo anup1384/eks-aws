@@ -1,4 +1,4 @@
-# eks-AWS
+# Eks-AWS
 
 ### Table of Contents
 
