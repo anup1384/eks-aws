@@ -49,8 +49,6 @@ eksctl utils write-kubeconfig --name cluster-name
 ### Delete cluster
 ```shell
 CLUSTER_NAME="nonprod"
-helm delete nginx-ingress --purge
-kubectl delete ingress,svc,deployment nginx
 eksctl delete cluster --name ${CLUSTER_NAME}
 ```
 
