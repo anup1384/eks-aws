@@ -34,18 +34,6 @@ You should especify one environment:
 ```
 
 
-## Next Steps
-
-The script will automatically create the following:
-
-- Update trust relationship roles to k8s nodes role
-- Create helm service account
-- Apply RBAC to helm service account
-- Initialize helm
-- Deploy ALB Controller
-- Deploy keel
-
-
 ## Get cluster access
 
 To get access to a cluster, use the command:
@@ -53,17 +41,6 @@ To get access to a cluster, use the command:
 eksctl utils write-kubeconfig --name cluster-name
 ```
 
-
-## Deploying Demo
-
-```shell
-kubectl apply -f resources/demo.yaml
-```
-** PS: This demo is using `nonprod` cluster settings, if you want to use in another cluster please remember to change the fields at the ingress section:
-- `alb.ingress.kubernetes.io/subnets:  #nonprod DMZ subnets`
-
-- `alb.ingress.kubernetes.io/certificate-arn: "arn:aws:acm:eu-west-1"
-- `- host: www.example.com`
 
 # Cleanup
 
