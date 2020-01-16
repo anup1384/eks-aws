@@ -51,6 +51,6 @@ eksctl utils write-kubeconfig --name cluster-name
 CLUSTER_NAME="nonprod"
 eksctl delete cluster --name ${CLUSTER_NAME}
 ```
-For mode details:-
+For more details:-
 
 https://medium.com/faun/create-a-kubernetes-cluster-on-amazon-eks-261336b89e17
